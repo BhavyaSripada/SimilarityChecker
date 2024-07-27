@@ -1,7 +1,6 @@
 import streamlit as st
 from sentence_transformers import SentenceTransformer, util
 
-# Load the SBERT model
 model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 st.title("Sentence Similarity Checker")
